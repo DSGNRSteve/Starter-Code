@@ -1,0 +1,116 @@
+/* Basic HTML
+----------------------------------------------------------------------------------------------------*/
+pre, code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+body {
+  background: white;
+  color: black;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  height: auto;
+  line-height: 1.25em;
+  padding-bottom: 20px;
+}
+ol {
+  list-style: decimal;
+}
+ul {
+  list-style: disc;
+}
+li {
+  margin-left: 30px;
+}
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+.container_12 {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+.container_12 {
+  background-image: url(../img/960gs/12_col.gif);
+}
+.container_16 {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+.container_16 {
+  background-image: url(../img/960gs/16_col.gif);
+}
+.container_24 {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+.container_24 {
+  background-image: url(../img/960gs/24_col.gif);
+}
+/* Links
+----------------------------------------------------------------------------------------------------*/
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a :hover {
+  text-decoration: underline;
+}
+/* Headings
+----------------------------------------------------------------------------------------------------*/
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 20px;
+}
+h2 {
+  font-size: 1.4375em;
+  padding-top: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 1.3125em;
+}
+h4 {
+  font-size: 1.1875em;
+}
+h5 {
+  font-size: 1.0625em;
+}
+h6 {
+  font-size: .9375em;
+}
+p {
+  padding: 10px 0;
+}
+/* Styles
+----------------------------------------------------------------------------------------------------*/
+header {
+  padding: 0 10px 0 10px;
+}
+footer {
+  padding: 0 10px 0 10px;
+}
